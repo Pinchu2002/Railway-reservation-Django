@@ -16,5 +16,4 @@ urlpatterns = [
     path('bookform/',views.bookform,name="bookform"),
     path('mybooking/',views.mybooking,name="mybooking"),
     path('booking/<train_id>',views.booking,name="booking")
-    
 ]
